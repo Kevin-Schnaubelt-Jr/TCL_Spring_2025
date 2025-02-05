@@ -1,0 +1,32 @@
+start
+    Declarations
+        num randomNumber
+        num userNumber
+        bool correct
+        str message
+    message = "Guess a number between 1 and 100."
+    randomNumber = RANDOM(1, 100) // Place in loop to make harder.
+    correct = False
+    while NOT correct
+        userNumber = getUserGuess()
+        correct = evaluateAnswer(userNumber, randomNumber)
+end
+
+getUserGuess()
+    output message
+    input userNumber
+    return userNumber
+
+evaluateAnswer(userNumber, randomNumber)
+    if userNumber < randomNumber
+        output "Too high."
+        return False
+    else if userNumber > randomNumber
+        output "Too low."
+        return False
+    else
+        output "Correct!"
+        return True
+    endif
+
+
