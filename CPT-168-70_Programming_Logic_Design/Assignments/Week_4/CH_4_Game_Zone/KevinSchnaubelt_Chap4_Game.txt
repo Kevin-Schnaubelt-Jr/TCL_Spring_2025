@@ -18,10 +18,10 @@ getUserGuess()
     return userNumber
 
 evaluateAnswer(userNumber, randomNumber)
-    if userNumber < randomNumber
+    if userNumber > randomNumber
         output "Too high."
         return False
-    else if userNumber > randomNumber
+    else if userNumber < randomNumber
         output "Too low."
         return False
     else
