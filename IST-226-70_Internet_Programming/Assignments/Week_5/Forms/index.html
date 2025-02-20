@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+        body {font-family: 'Didact Gothic', sans-serif;}
+    </style>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DE FA Calc</title>
+</head>
+<body class=" h-full md:h-screen">
+    <!-- html element represnting the app, referenced by 'el' -->
+<div>
+    <div class="">
+        <div class="flex justify-center flex-col items-center h-[4rem] border-b-2  items-center border-orange-500">
+            <p class="font-semibold"> Financial Aid Calculator</p>
+        </div>
+        <div class="flex flex-col items-center mt-[2rem]">
+            <input id="creditHours" type="text" placeholder="Credit hours" class="border w-[10rem]">
+            <!-- three radios, one for private, one for public, and one for homeschool schools -->
+            <div class="flex">
+                <p class="pr-[0.6rem]">School Type:</p>
+                <input class="pr-[0.6rem]" type="radio" name="schoolType" value="private" >Private
+                <input class="pr-[0.6rem]" type="radio" name="schoolType" value="public" >Public
+                <input class="pr-[0.6rem]" type="radio" name="schoolType" value="homeschool">Homeschool
+            </div>
+
+            <div class="flex">
+                <p class="pr-[1rem]">Out of State?</p>
+                <input type="checkbox" value="foo">
+            </div>
+            <button class="border-1 rounded-[0.8rem] h-[2rem] w-16 bg-slate-300">Submit</button>
+        </div>
+    </div>
+
+    <div  class="flex justify-center relative">
+        <textarea disabled class="h-full bg-transparent text-center border border-orange-500 mt-[0.5rem] p-4" cols="40" rows="17">
+
+        </textarea>
+    </div>
+
+</div>
+
+
+</body>
+</html>
