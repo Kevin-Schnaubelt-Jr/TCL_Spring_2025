@@ -1,0 +1,29 @@
+/* this will select the menu class and set the background color to black */
+.menu {
+    background-color: black;
+} 
+
+/* this will select the menu class and set the color to white */
+.menu ul {
+    display: flex;
+}
+
+/* this will set all links to red on hover */
+a:hover {
+    color: red;
+}
+
+/* this will set all links to blue on active */
+a.active {
+    color: blue;
+}
+
+/* this will set color transitions to take 1 second and ease in */
+a {
+    transition: color 1s ease;
+}
+
+/* this will set the last child element of paragraph to green */
+p:last-child {
+    color: green;
+}

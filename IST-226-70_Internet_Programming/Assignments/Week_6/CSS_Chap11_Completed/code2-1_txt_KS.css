@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+
+/*
+   IST 226
+   Internet Programming
+   CSS Assignment
+
+   Author: Kevin Schnaubelt
+   Date:   2/27/2025
+   
+   Filename: code2-1.css
+
+*/
+
+h1 {
+   font-size: 3.5em;
+   line-height: 0em;
+}
+
+h1, h2 {
+   font-family: Helvetica, Arial, sans-serif;
+   letter-spacing: 0.1em;
+}
+
+blockquote {
+   color: hsl(30, 85%, 45%);
+}
+
+blockquote::first-letter {
+   font-size: 1.5em;
+}
+
+/* make the footer center */
+footer {
+   text-align: center;
+   font: 2em;
+   color: white;
+   background-color: hsl(30, 85%, 45%);
+}
