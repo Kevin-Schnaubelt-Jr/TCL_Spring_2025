@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container{
+            border: 1px solid black;
+
+            width: 800px;
+            height: 800px;
+
+            background-color: red;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+        }
+
+        .item {
+            border: 1px solid black;
+
+            width: 150px;
+            height: 150px;
+        }
+
+        #first { background-color: blue; }
+
+        #second { background-color: green; }
+
+        #third { background-color: yellow; }
+
+        #forth { background-color: orange; }
+
+        #fifth { background-color: purple; }
+
+        #sixth { background-color: pink; }
+    </style>
+    <title>Flex</title>
+</head>
+<body>
+    <div id="container">
+        <div id="first" class="item"></div>
+        <div id="second" class="item"></div>
+        <div id="third" class="item"></div>
+        <div id="forth" class="item"></div>
+        <div id="fifth" class="item"></div>
+        <div id="sixth" class="item"></div>
+    </div>
+</body>
+</html>
