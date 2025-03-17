@@ -30,3 +30,15 @@ evaluateAnswer(userNumber, randomNumber)
     endif
 
 
+start
+    import turtle
+
+    turtle.speed(1)
+        drawStopSign()
+    drawSpeedLimitSign()
+    drawPedestrianSign()
+    turtle.hideturtle()
+    turtle.done()
+end
+
+drawStopSign()

@@ -1,0 +1,8 @@
+Topic: How Heat Pumps in Air Conditioning Work
+
+Purpose: The purpose of this speech is to explain the fundamental principles behind heat pumps in air conditioning systems, 
+focusing on how they transfer heat rather than generate cold, making them an efficient yet often overlooked engineering marvel 
+in our daily lives.
+
+Thesis/Central Idea: Heat pumps operate by moving heat rather than creating cold, using principles of thermodynamics and phase changes to efficiently regulate indoor temperatures. 
+By understanding how they work, we can gain a greater appreciation for the hidden engineering that keeps our lives comfortable.

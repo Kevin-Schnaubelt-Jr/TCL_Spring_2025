@@ -1,0 +1,21 @@
+start
+    IMPORT choice FROM random
+    Declarations
+        list moves
+        str moveOne
+        str moveTwo
+        str moveThree
+        str result
+    moves = ['HEADS', 'TAILS]
+    FOR i FROM 1 To 3 DO 
+        moveOne = choice(moves)
+        moveTwo = choice(moves)
+        MoveThree = choice(moves)
+        result = FORMAT("{moveOne} {moveTwo} {moveThree}.")
+        output result
+    END FOR
+end
+
+    
+
+    

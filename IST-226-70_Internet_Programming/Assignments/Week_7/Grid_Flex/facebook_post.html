@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #blink {
+          animation: blink-animation 1s steps(2, start) infinite;
+          -webkit-animation: blink-animation 1s steps(2, start) infinite;
+        }
+        @keyframes blink-animation {
+          to {
+            visibility: hidden;
+          }
+        }
+        @-webkit-keyframes blink-animation {
+          to {
+            visibility: hidden;
+          }
+        }
+      </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/dd6b6dce0f.js" crossorigin="anonymous"></script>
+    <title>Facebook Post</title>
+</head>
+<body class="flex justify-center items-center flex-col bg-[#0A0B0B] text-white w-screen h-screen">
+    <div class="bg-[#1C1E1F] w-[100%rem] h-[80%] md:w-[30rem] md:h-[30rem] md:rounded-lg">
+        <div class="flex justify-center p-5 relative">
+            <p class="font-bold">Create post</p>
+            <div class="absolute right-5">
+                <i class="fa-solid fa-circle-xmark text-[#333536] bg-white h-[20%] h-[0.9rem] w-[0.9rem] rounded flex items-center justify-center text-4xl"></i>
+
+            </div>
+
+        </div>
+        <div class="flex font-bold">
+            <img class="rounded-full w-[3rem] m-3" src="tank_icon.jpg" alt="">
+            <div class="mt-3">
+                <p>Kevin Cain</p>
+                <p class="text-sm bg-[#333536] text-center">Friends</p>
+            </div>
+        </div>
+        <p class="p-5 ">
+            Holy [cow] dude, Mark got both of his legs broken at the Magic the Gathering tournament. The one at the card shop on Satellite blvd. Apparently someone got so mad at his control deck that they took him outside and roughed him up. He's at Northside hospital right now. His parent's are going to be so [mad], he's supposed to be out of town in Jamaica or something 🤣. He says his deck that he spent like $1,500 dollars on got destroyed in the fight and is trying to get me to send his parents a letter asking for money. What an idiot.
+            <span id="blink">𝖨</span>
+        </p>
+        <div class="flex justify-center items-center">
+            <p class="bg-[#1859B1] w-[90%] text-center rounded p-2 font-bold">Post</p>
+        </div>
+    </div>
+    <!-- <div>
+        <h1>mobile</h1>
+        <p class="md:text-2xl">half</p>
+        <p class="2xl:text-4xl">full</p>
+    </div> -->
+</body>
+</html>

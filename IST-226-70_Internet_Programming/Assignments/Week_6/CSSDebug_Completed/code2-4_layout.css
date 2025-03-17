@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+
+/*
+      IST 226 Internet Programming
+   Chapter 12
+   CSS Debug
+   
+   Filename: code2-2_layout.css
+
+*/
+
+body {
+   width: 900px;
+}
+
+img {
+   display: block;
+   width: 100%;
+   margin: 0px;
+}
+
+div {
+   float: left;
+   width: 300px;
+   height: 580px;
+}
+
+aside {
+   float: left;
+   width:540px;
+   height: 600px;
+}
