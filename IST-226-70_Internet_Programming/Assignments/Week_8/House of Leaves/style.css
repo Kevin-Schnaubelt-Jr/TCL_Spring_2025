@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    line-height: 1; /* Eliminate most of the line height.*/
+    font-family: sans-serif; /* Ensures a clean, modern look */
+    font-weight: bold; /* Makes text bold */
+    width: 100vw; /* Spans full screen width */
+    letter-spacing: 1ch; /* Wide enough to fit full characters */
+}
+
+#double-strikethrough {
+    text-decoration: line-through; /* Strikes through text */
+    text-decoration-color: blue; /* Makes the line blue */
+    text-shadow: 0 4px blue; /*Achieves a double strikethrough effect, admittedly not perfect */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caveat', cursive; /* A handwritten font (Google Font) */
+    font-weight: normal; /* Ensures it's NOT bold */
+    text-align: center; /* Centers the text */
+    transform: rotate(-3deg); /* Makes it appear crooked */
+}
+
+
+/* I think the resulting blog looks wonderful! 'House of Leaves' uses the medium of books to tell a story
+in a way only the medium is capable of. I wouldn't change a thing, as some of the text is designed to 
+not be necessarily readable, or at the very least cryptic. */
+  
