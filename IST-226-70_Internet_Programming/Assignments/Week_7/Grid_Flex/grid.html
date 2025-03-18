@@ -9,26 +9,26 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         #container {
             border: 1px solid black;
             width: 800px;
             height: 800px;
             background-color: red;
-
+            
             display: grid;
             grid-template-columns: 200px 200px ; /* 2 columns with different sizes */
             grid-template-rows: repeat(3, 200px); /* 3 equal rows */
             gap: 2px; /* Space between items */
             place-items: center; /* Centers items inside grid cells */
         }
-
+        
         .item {
             border: 1px solid black;
             width: 150px;
             height: 150px;
         }
-
+        
         /* Different background colors for each box */
         #first { background-color: blue; }
         #second { background-color: green; }
@@ -37,11 +37,11 @@
         #fifth { background-color: purple; }
         #sixth { background-color: pink; }
 
-    </style>
+        </style>
     <title>Grid</title>
 </head>
 <body>
-
+    
     <div id="container">
         <div id="first" class="item"></div>
         <div id="second" class="item"></div>
