@@ -1,0 +1,29 @@
+start
+    Declarations
+        list nationalFinalists
+        str line
+
+    SET nationalFinalists TO empty list
+
+    OPEN "east.txt" FOR reading
+    FOR EACH line IN "east.txt" DO
+        APPEND line TO nationalFinalists
+    END FOR
+
+    OPEN "midwest.txt" FOR reading
+    FOR EACH line IN "midwest.txt" DO
+        APPEND line TO nationalFinalists
+    END FOR
+
+    OPEN "west.txt" FOR reading
+    FOR EACH line IN "west.txt" DO
+        APPEND line TO nationalFinalists
+    END FOR
+
+    SORT nationalFinalists alphabetically
+
+    OPEN "national_finalists.txt" FOR writing
+    FOR EACH record IN nationalFinalists DO
+        WRITE record TO "national_finalists.txt"
+    END FOR
+end

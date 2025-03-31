@@ -3,5 +3,5 @@ Make your previous Flexbox assignment responsive.
 Must be responsive to "mobile," "medium desktop," and "full desktop" using the following media queries.
 
 - @media (max-width: 576px) {}
-- @media(min-width: 577px) and (max-width: 992px) {}
+- @media (min-width: 577px) and (max-width: 992px) {}
 - @media (min-width: 993px) {}

@@ -9,7 +9,7 @@ in our daily lives.
 Introduction
 
 
-Attention getter: "Raise your hand if you think your air conditioner produces cold." [Making sure to pause]
+Attention getter: "Raise your hand if you think your air conditioner produce cold." [Making sure to pause]
 Likely outcome is no hands: "It sounds like a trick question, which is why probably nobody raised their hands, and good on you; it is a trick question."
 Any hands outcome: "OK, it makes sense, right? That's certainly intuitive and what I thought as well. But it turns what it's actually does is, 'move heat'."
 
@@ -23,7 +23,7 @@ Transition: "Who can tell me the boiling point of water?"
 
 Body
 
-1. Water boils at 121f or 100c, AT SEA LEVEL. The higher up you go, the easier it is to boil water because there's less pressure. In a near perfect vacuum, water will boil at 1f. That's according to The Engineering ToolBox.
+1. Water boils at 212f or 100c, AT SEA LEVEL. The higher up you go, the easier it is to boil water because there's less pressure. In a near perfect vacuum, water will boil at 1f. That's according to The Engineering ToolBox.
     a. "Why is this important? Because boiling is a phase change."
         i. "When a liquid boils, it transforms in to gas, and this transformation requires energy. Think of it like its trying to break free of its liquid bonds."
         ii. "Any time a phase change uses energy, it's called a endothermic reaction. Endo like in. It's taking in energy.
